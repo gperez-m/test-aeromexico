@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:3001/students';
+const baseUrl = 'https://my-json-server.typicode.com/gperez-m/db-test-aeromexico/students';
 
 
 export const getAll = async () => {
