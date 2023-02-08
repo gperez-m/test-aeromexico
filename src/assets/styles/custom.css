@@ -39,12 +39,12 @@ div.bookmark {
 
 div.bookmark .bookmark-wrap {
     width: 100%;
-    padding: 10px 15px;
+    padding: 0px 15px;
 }
 
 div.bookmark .bookmark-wrap .flex.text-white{
     border-bottom: 1px solid #403B6D;
-    padding: 5px 2px;
+    padding: 10px 2px;
 }
 
 div.bookmark .bookmark-wrap:last-child .flex.text-white{
