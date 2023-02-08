@@ -17,8 +17,8 @@ export default function Header (props) {
         birthday: '',
         eyes: '',
         hair: '',
-        genere: 'Mujer',
-        position: 'Estudiante'
+        genere: 'female',
+        position: 'student'
     }
 
     const [openModal, setOpenModal] = useState(false);
@@ -205,8 +205,8 @@ export default function Header (props) {
                                 onChange={handleChange('position')}
                                 value={form.position}
                             >
-                                <FormControlLabel value="Estudiante" control={<Radio />} label="Estudiante" />
-                                <FormControlLabel value="Staff" control={<Radio />} label="Staff" />
+                                <FormControlLabel value="student" control={<Radio />} label="Estudiante" />
+                                <FormControlLabel value="staff" control={<Radio />} label="Staff" />
                             </RadioGroup>
                         </div>
                         <div className="py-10" >
